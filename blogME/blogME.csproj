@@ -92,6 +92,7 @@
     <Content Include="Content\images\smartguy.png" />
     <Content Include="Content\images\tales-logo.png" />
     <Content Include="Content\images\violin.png" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\styles-bluegreen.css" />
     <Content Include="Content\styles-bluered.css" />
     <Content Include="Content\styles-greyred.css" />
@@ -140,10 +141,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ArticleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AboutViewModel.cs" />
+    <Compile Include="Models\ArticleViewModel.cs" />
     <Compile Include="Models\IndexViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -156,6 +161,9 @@
     <Content Include="Views\Shared\_AdminLayoutPage.cshtml" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Article\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
