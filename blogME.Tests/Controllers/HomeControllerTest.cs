@@ -1,6 +1,6 @@
-﻿using System.Web.Mvc;
-using blogME.Controllers;
+﻿using blogME.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TestStack.FluentMVCTesting;
 
 namespace blogME.Tests.Controllers
 {
@@ -8,16 +8,10 @@ namespace blogME.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
-        public void Index()
+        public void HomeControllerShouldRenderDefaultView()
         {
-            // Arrange
-            var controller = new HomeController();
-
-            // Act
-            var result = controller.Index() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
+            var sut = new HomeController();
+            sut.WithCallTo(x => x.Index()).ShouldRenderDefaultView();
         }
     }
 }
