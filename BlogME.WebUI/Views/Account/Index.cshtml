@@ -6,22 +6,27 @@
 }
 
 <div class="widewrapper main">
-    <div class="container">
+    <div class="container blog-main">
         <div class="row">
-            <div class="col-md-8 blog-main">
-                <h1>Login</h1>
-                <p>username : password </p>
-            </div>
-            <aside class="col-md-4 blog-aside">
-                <div class="aside-widget">
-                    <header>
-                        <h3>Recently published articles</h3>
-                    </header>
-                    <div class="body">
-                        Article 1
+            <div class="col-md-4 col-sm-6">
+                <fieldset>
+                    <legend>Sign in to continue</legend>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="username" placeholder="Username">
+                            <label for="username" class="input-group-addon glyphicon glyphicon-user"></label>
+                        </div>
                     </div>
-                </div>
-            </aside>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <label for="password" class="input-group-addon glyphicon glyphicon-lock"></label>
+                        </div>
+                    </div>
+                    <button class="form-control btn btn-tales-one">Login</button>
+                </fieldset>
+            </div>
+            <div class="hidden-xs col-md-8 col-sm-6"></div>
         </div>
     </div>
 </div>
