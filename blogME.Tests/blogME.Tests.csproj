@@ -86,7 +86,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\blogME\BlogME.WebUI.csproj">
+    <ProjectReference Include="..\BlogME.WebUI\BlogME.WebUI.csproj">
       <Project>{13EC1DB6-0785-4417-87E5-E53A6AD9505C}</Project>
       <Name>BlogME.WebUI</Name>
     </ProjectReference>

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogME.WebUI", "blogME\BlogME.WebUI.csproj", "{13EC1DB6-0785-4417-87E5-E53A6AD9505C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogME.WebUI", "BlogME.WebUI\BlogME.WebUI.csproj", "{13EC1DB6-0785-4417-87E5-E53A6AD9505C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogME.Tests", "blogME.Tests\BlogME.Tests.csproj", "{E703F0AE-3D10-45E2-A65D-E841AB824463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogME.Tests", "BlogME.Tests\BlogME.Tests.csproj", "{E703F0AE-3D10-45E2-A65D-E841AB824463}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BlogME.Database", "BlogME.Database\blogME.Database.sqlproj", "{24A2FF16-FABD-4F90-BCD9-8D01959F88AA}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BlogME.Database", "BlogME.Database\BlogME.Database.sqlproj", "{24A2FF16-FABD-4F90-BCD9-8D01959F88AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
