@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using BlogME.WebUI.Models;
 
 namespace BlogME.WebUI.Controllers
 {
@@ -6,6 +7,17 @@ namespace BlogME.WebUI.Controllers
     {
         // GET: Account
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(AccountViewModel viewModel)
+        {
+            return RedirectToAction("Dashboard");
+        }
+
+        public ActionResult Dashboard()
         {
             return View();
         }

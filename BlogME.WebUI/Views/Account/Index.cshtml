@@ -4,29 +4,31 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
 }
-
-<div class="widewrapper main">
-    <div class="container blog-main">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <fieldset>
-                    <legend>Sign in to continue</legend>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="username" placeholder="Username">
-                            <label for="username" class="input-group-addon glyphicon glyphicon-user"></label>
+@using (Html.BeginForm())
+{
+    <div class="widewrapper main">
+        <div class="container blog-main">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <fieldset>
+                        <legend>Sign in to continue</legend>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                                <label for="username" class="input-group-addon glyphicon glyphicon-user"></label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                            <label for="password" class="input-group-addon glyphicon glyphicon-lock"></label>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <label for="password" class="input-group-addon glyphicon glyphicon-lock"></label>
+                            </div>
                         </div>
-                    </div>
-                    <button class="form-control btn btn-tales-one">Login</button>
-                </fieldset>
+                        <input type="submit" class="form-control btn btn-tales-one" value="Login"/>
+                    </fieldset>
+                </div>
+                <div class="hidden-xs col-md-8 col-sm-6"></div>
             </div>
-            <div class="hidden-xs col-md-8 col-sm-6"></div>
         </div>
     </div>
-</div>
+}
