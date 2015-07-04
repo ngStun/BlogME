@@ -6,7 +6,7 @@
     <ProjectGuid>{E703F0AE-3D10-45E2-A65D-E841AB824463}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>blogME.Tests</RootNamespace>
+    <RootNamespace>BlogME.Tests</RootNamespace>
     <AssemblyName>blogME.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -86,9 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\blogME\blogME.csproj">
+    <ProjectReference Include="..\blogME\BlogME.WebUI.csproj">
       <Project>{13EC1DB6-0785-4417-87E5-E53A6AD9505C}</Project>
-      <Name>blogME</Name>
+      <Name>BlogME.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

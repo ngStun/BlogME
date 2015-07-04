@@ -1,8 +1,8 @@
-﻿using blogME.Controllers;
+﻿using BlogME.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestStack.FluentMVCTesting;
 
-namespace blogME.Tests.Controllers
+namespace BlogME.Tests.Controllers
 {
     [TestClass]
     public class AboutControllerTest

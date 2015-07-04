@@ -1,4 +1,4 @@
-﻿namespace blogME.Models
+﻿namespace BlogME.Models
 {
     public class ArticleViewModel
     {
