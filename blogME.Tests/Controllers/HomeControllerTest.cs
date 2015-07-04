@@ -1,4 +1,4 @@
-﻿using BlogME.Controllers;
+﻿using BlogME.WebUI.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestStack.FluentMVCTesting;
 

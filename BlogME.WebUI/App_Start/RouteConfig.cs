@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace BlogME
+namespace BlogME.WebUI
 {
     public class RouteConfig
     {

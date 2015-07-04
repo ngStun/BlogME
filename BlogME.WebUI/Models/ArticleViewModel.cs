@@ -1,4 +1,4 @@
-﻿namespace BlogME.Models
+﻿namespace BlogME.WebUI.Models
 {
     public class ArticleViewModel
     {

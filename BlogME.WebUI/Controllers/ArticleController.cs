@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace BlogME.Controllers
+namespace BlogME.WebUI.Controllers
 {
     public class ArticleController : Controller
     {
