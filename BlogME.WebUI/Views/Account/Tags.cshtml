@@ -1,0 +1,30 @@
+﻿@model BlogME.WebUI.Models.TagsViewModel
+
+@{
+    ViewBag.Title = "Tags";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+<div class="widewrapper main">
+    <div class="container blog-main">
+        <div class="row">
+            <div class="col-m4-2 col-sm-4">
+                <fieldset>
+                    <legend>Add tags</legend>
+                    <div id="tag-success">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <label class="input-group-addon glyphicon glyphicon-plus"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul id="tag-cloud"></ul>
+                </fieldset>
+            </div>
+            <div class="col-md-10 col-sm-8">
+            </div>
+        </div>
+    </div>
+</div>

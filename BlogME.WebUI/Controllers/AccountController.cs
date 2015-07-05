@@ -21,5 +21,10 @@ namespace BlogME.WebUI.Controllers
         {
             return View();
         }
+
+        public ActionResult Tags()
+        {
+            return View();
+        }
     }
 }

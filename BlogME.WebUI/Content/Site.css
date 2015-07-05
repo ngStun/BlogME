@@ -1,5 +1,9 @@
-﻿.btn-group-vertical > button {
+﻿.btn-group-vertical > a {
     margin-bottom:10px;
     -ms-border-radius:10px !important;
     border-radius:10px !important;
+}
+
+#tag-cloud {
+    margin-top: 25px;
 }

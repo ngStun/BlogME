@@ -10,8 +10,22 @@ namespace BlogME.Tests.Controllers
         [TestMethod]
         public void AccountControllerShouldRenderDefaultView()
         {
-            var sut = new HomeController();
+            var sut = new AccountController();
             sut.WithCallTo(x => x.Index()).ShouldRenderDefaultView();
+        }
+
+        [TestMethod]
+        public void DashboardActionShouldRenderDashboardView()
+        {
+            var sut = new AccountController();
+            sut.WithCallTo(x => x.Dashboard()).ShouldRenderView("Dashboard");
+        }
+
+        [TestMethod]
+        public void TagsActionShouldRenderTagsView()
+        {
+            var sut = new AccountController();
+            sut.WithCallTo(x => x.Tags()).ShouldRenderView("Tags");
         }
     }
 }
