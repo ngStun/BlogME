@@ -132,9 +132,9 @@
     <Content Include="Content\less\styles-bluered.less" />
     <Content Include="Content\less\styles-greyred.less" />
     <Content Include="Content\less\variables.less" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Icon.png" />
-    <Content Include="Scripts\bootstrap-tag-cloud.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\html5-3.6-respond-1.1.0.min.js" />
@@ -147,6 +147,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\site.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
