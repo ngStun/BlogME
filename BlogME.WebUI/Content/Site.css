@@ -7,3 +7,7 @@
 #tag-cloud {
     margin-top: 25px;
 }
+
+.form-control {
+    height: auto;
+}
